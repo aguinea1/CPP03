@@ -6,7 +6,7 @@
 /*   By: aguinea <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 11:28:09 by aguinea           #+#    #+#             */
-/*   Updated: 2025/05/26 12:11:57 by aguinea          ###   ########.fr       */
+/*   Updated: 2025/05/26 15:22:04 by aguinea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 class ClapTrap
 {
-	private:
+	protected:
 		std::string Name;
 		int	HitPoints;
 		int EnergyPoints;

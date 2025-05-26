@@ -17,9 +17,11 @@ DEPDIR			= deps
 ################################################################################
 
 SRCS = main.cpp			\
-	   ClapTrap.cpp
+	   ClapTrap.cpp		\
+	   ScavTrap.cpp
 
-HEADERS = ClapTrap.hpp
+HEADERS = ClapTrap.hpp	\
+		  ScavTrap.hpp
 
 ################################################################################
 #                             OBJECTS & DEPS                                   #

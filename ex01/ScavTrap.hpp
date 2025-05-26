@@ -6,12 +6,12 @@
 /*   By: aguinea <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 12:21:50 by aguinea           #+#    #+#             */
-/*   Updated: 2025/05/26 12:43:20 by aguinea          ###   ########.fr       */
+/*   Updated: 2025/05/26 15:11:44 by aguinea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ClapTrap_HPP
-# define ClapTrap_HPP
+#ifndef ScavTrap_HPP
+# define ScavTrap_HPP
 # include <iostream>
 # include <new>
 # include <string>
@@ -25,6 +25,7 @@ class ScavTrap : public ClapTrap
 			~ScavTrap();
 
 			void attack(const std::string& target);
+			void guardGate();
 };
 #endif
 

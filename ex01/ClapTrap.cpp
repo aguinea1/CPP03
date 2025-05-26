@@ -6,7 +6,7 @@
 /*   By: aguinea <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 11:34:48 by aguinea           #+#    #+#             */
-/*   Updated: 2025/05/26 12:19:47 by aguinea          ###   ########.fr       */
+/*   Updated: 2025/05/26 15:30:06 by aguinea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,17 @@
 
 ClapTrap::ClapTrap(std::string Name) : Name(Name), HitPoints(10), EnergyPoints(10), AttackDamage(10)
 {
-	std::cout << this->Name << " has been created" << std::endl;
+	std::cout << "ClapTrap " << this->Name << " has been created" << std::endl;
 }
 
 ClapTrap::ClapTrap(const ClapTrap& target)
  : Name(target.Name), HitPoints(target.HitPoints), EnergyPoints(target.EnergyPoints), AttackDamage(target.AttackDamage)
 {
-	std::cout << this->Name << " has been created" << std::endl;
+	std::cout << "ClapTrap " << this->Name << " has been created" << std::endl;
 }
 ClapTrap::~ClapTrap()
 {
-	std::cout << this->Name << " has been destroyed" << std::endl;
+	std::cout << "ClapTrap "<< this->Name << " has been destroyed" << std::endl;
 }
 
 void ClapTrap::attack(const std::string& target)
